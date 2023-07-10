@@ -16,7 +16,7 @@ jogadores.forEach((jogadores) => {
 
         let picGrande = document.querySelector(".Foto-Grande");
 
-        picGrande.src = `../imagens/${idJogador}.bola.jpg`;
+        picGrande.src = `./Imagens/${idJogador}.bola.jpg`;
 
         let nome = document.getElementById("Nome-Jogador")
 
