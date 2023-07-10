@@ -1,0 +1,39 @@
+@media (max-width: 1120px){
+    .cabecalho .logo{
+        max-width: 190px;
+    }
+
+    .Selecionar-Jogador{
+        flex-direction: column-reverse;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .Selecionar-Jogador .Jogadores{
+        margin-top: -225px;
+    }
+
+    .Selecionar-Jogador .Jogadores .Titulo{
+        font-size: 15px;
+    }
+
+    .Selecionar-Jogador .Lista-Jogadores{
+        gap: 9px
+    }
+
+    .Selecionar-Jogador .Jogadores img{
+        width: 80px;
+    }
+
+    .Jogador-Escolhido .Foto-Grande{
+        width: 350px;
+        height: 350px;
+    }
+
+    .Jogador-Escolhido .Descricao-Jogador{
+        width: 80%;
+        font-size: 16px;
+        margin: 10px auto;
+    }
+
+}
